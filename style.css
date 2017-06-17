@@ -1,0 +1,234 @@
+.classnormal {
+  text-align: center;
+  padding: .3em;
+  color: #fff;
+  background: #08204c;
+  margin-left: .6em;
+  width: 93.2%;
+  margin-top: -.3em;
+}
+
+.classred {
+  text-align: center;
+  padding: .3em;
+  color: #fff;
+  background: #fb2600;
+  margin-left: .6em;
+  width: 93.2%;
+  margin-top: -.3em;
+}
+
+.classgreen {
+  text-align: center;
+  padding: .3em;
+  color: #fff;
+  background: #349152;
+  margin-left: .6em;
+  width: 93.2%;
+  margin-top: -.3em;
+}
+
+.contact-form {
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.contact-form div {
+  padding: 5px 0;
+}
+
+.contact-form span {
+  display: block;
+  font-size: .975em;
+  color: #363638;
+  padding-bottom: 5px;
+  font-family: "Maven Pro",sans-serif;
+}
+
+.contact-form input[type="text"], {
+  padding: 8px;
+  display: block;
+  width: 70%;
+  border: none;
+  outline: none;
+  color: #363638;
+  font-size: .8125em;
+  font-family: "Maven Pro",sans-serif;
+  border: 1px solid #999;
+  -webkit-appearance: none;
+}
+
+div .head {
+  float: left;
+  padding: 5px;
+  width: 23%;
+}
+
+div .head .clum {
+  width: 98%;
+  text-align: center;
+}
+
+div .head .cval {
+  width: 98%;
+}
+
+div .head input[type="text"] {
+  padding: 0!important;
+  height: 28px;
+  width: 100%;
+  text-align: center;
+}
+
+select {
+  width: 98%;
+}
+
+@media only screen and (max-width: 320px) {
+  .col-md-5,.col-md-6 {
+    min-height: 1px;
+    padding: 15px!important;
+    position: relative;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .col-md-5,.col-md-6 {
+    min-height: 1px;
+    padding: 15px!important;
+    position: relative;
+  }
+
+  div .head {
+    width: 98%;
+  }
+
+  div .head .cval {
+    width: 98%;
+    text-align: right;
+  }
+
+  .contact-form input[type="text"], {
+    width: 92%;
+  }
+}
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.col-md-5,.col-md-6 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (min-width: 992px) {
+  .col-md-5,.col-md-6 {
+    float: left;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+  .col-md-5 {
+    width: 41.66666667%;
+  }
+}
+
+.tab_view {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+
+.sub_box {
+  width: 100%;
+  height: 33%;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.boxes {
+  width: 30%;
+  min-width: 168px;
+  background-color: #ccc;
+  float: left;
+  text-align: center;
+  position: relative;
+  height: 150px;
+  margin: 0;
+  box-shadow: 0px 0px 10px -2px;
+	/*border: 1px solid #A8A8A8;*/
+  transition-duration: 0.2s;
+  opacity: .6;
+}
+
+.sub_box {
+  width: 100%;
+  height: 33%;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  font-weight: bold;
+  color: #000 !important;
+}
+
+.a_style {
+  color: initial;
+  text-decoration: none;
+}
+
+.a_style:hover {
+  color: initial;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.a_style:active {
+  color: black;
+  text-decoration: none;
+}
+
+.boxes:hover {
+  transform: scale(1.03);
+  transition-duration: 0.2s;
+  z-index: 10;
+}
+
+.boxes.emboos {
+  transform: scale(1.03);
+  opacity: 1 !important;
+}
+
+.head_txt {
+  padding: 10px 5px !important;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+tbody tr td:nth-child(2) > div > span {
+  color: #000 !important;
+}
+
+tbody tr:nth-last-child(2) td:nth-child(2) > div > span {
+  color: #000 !important;
+}
+
+table {
+  background: #e2e2e2 !important;
+}
