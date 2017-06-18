@@ -65,12 +65,12 @@ div .head {
 }
 
 div .head .clum {
-  width: 98%;
+  width: 100%;
   text-align: center;
 }
 
 div .head .cval {
-  width: 98%;
+  width: 100%;
 }
 
 div .head input[type="text"] {
